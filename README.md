@@ -109,38 +109,34 @@ Ensure you have the following installed on your machine:
 
 Clone the repository to your local machine:
 
-```sh
+```
 git clone <repository-url>
 cd <repository-directory>
 ```
 ### Step 2: Create a Virtual Environment
 Create and activate a virtual environment to manage dependencies:
 
-```sh
-Copy code
+```
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 ```
 ### Step 3: Install Dependencies
 Install the required Python packages:
 
-``` sh
-Copy code
+``` 
 pip install django scikit-learn numpy pandas matplotlib
  ```
 ### Step 4: Set Up Django Project
 Navigate to the Django project directory and apply migrations:
 ```
-sh
-Copy code
+
 cd <django-project-directory>
 python manage.py migrate
 ```
 ### Step 5: Run the Django Development Server
 Start the Django development server:
 ```
-sh
-Copy code
+
 python manage.py runserver
  ``` 
 # Java Project
