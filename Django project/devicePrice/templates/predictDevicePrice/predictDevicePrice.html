@@ -1,0 +1,7 @@
+<!-- price_prediction/templates/price_prediction/predict_price.html -->
+
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Predict</button>
+</form>
